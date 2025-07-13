@@ -34,7 +34,7 @@ jobs:
     # Build the Docker Image
     - name: Build Docker Image
       run: |
-        docker build -t 23bced29/devops-demo:${{ env.VERSION }} .
+        docker build -t 23bced29/devops-demo-new:${{ env.VERSION }} .
 
     # Push the Docker Image
     - name: Push Docker Image
